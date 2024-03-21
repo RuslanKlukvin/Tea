@@ -308,9 +308,9 @@ flex-basis: 580px;
 border: none;
 border-bottom: 1px solid #B8B58B;
 background-color: transparent;
-padding: 3px 15px;
-width: 430px;
-margin-right: 25px;
+padding: 3px 11px;
+width: 349px;
+margin-right: 10px;
 font-family: "Open Sans", sans-serif;
 font-style: normal;
 font-weight: 300;
@@ -330,12 +330,11 @@ color: #b8b58b;
 .mailing-list__btn {
     background-color: #fff;
     border: 1px solid #151618;
-    padding: 12px 41px;
+    padding: 11px 31px;
     font-family: "Open Sans", sans-serif;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 300;
-    cursor: pointer;
-
+    cursor: pointer; 
 }
 
 .checkbox__text{
@@ -624,29 +623,31 @@ color: #b8b58b;
         padding: 60px 0;
     }
     .main-blog__item-img{
-        max-width: 230px;
+        max-width: 220px;
     }
     .mailing-list{
-        padding: 50px 0;
+        padding: 20px 0;
     }
-    .mailing-list__text{
-      flex-basis: 100%;
-      font-size: 13px;
+    .mailing-list__text{ 
+      font-size: 12px;
     }
     .mailing-list__inner{
-     gap: 30px 0;
+     gap: 8px 0;
     }
     .mailing-list__email{
-        width: 324px;
-        margin-right: 20px;
+        width: 200px;
+        margin-right: 8px;
     }
     .mailing-list__btn{
-       padding: 10px 39px;
+       padding: 9px 30px;
     }
     .prioritise{
-        padding: 60px 0;
-    }
+        padding: 59px 0;
+    } 
 }
+
+
+ 
 
 @media (max-width: 360px) {
     .title{
@@ -686,10 +687,6 @@ color: #b8b58b;
     }
     .reviews__item{
         flex-basis: 100%;
-    }
-    .reviews__item:last-child,
-    .reviews__item:first-child{
-        display: none;
     } 
 
     .main-blog{
@@ -709,15 +706,11 @@ color: #b8b58b;
     .main-blog__list{
       justify-content: center;
     }
-
     .main-blog__item-title{
         min-height: auto;
     }
-
-    .mailing-list__email{
-        max-width: 200px; 
-    }  
-
+  
+ 
     .prioritise{
         padding: 50px 0;
     }
@@ -731,7 +724,16 @@ color: #b8b58b;
     .prioritise__list{
         gap: 40px 100px;
     }
-    
 
+    .mailing-list__inner{
+        gap: 2px 0;
+       }
+       .mailing-list__email{
+           width: 100px;
+           margin-right: 2px;
+       }
+       .mailing-list__btn{
+          padding: 3px 17px;
+       }
 }
 
